@@ -18,9 +18,13 @@ The automation focuses on positive functional scenarios where valid Thanglish in
 ## Automation Testing Approach
 Automation testing was performed to validate the functional behavior of the Thanglish-to-Tamil transliteration application using Playwright.
 
-The coverage of automation was for positive functional scenarios only, the focus being on valid Thanglish inputs. These tests simulate real user typing behavior and verify that transliteration occurs by checking that the output is different from the input.
+The coverage of automation was for positive functional scenarios , the focus being on valid Thanglish inputs. These tests simulate real user typing behavior and verify that transliteration occurs by checking that the output is different from the input.
 
-Cross-browser testing was carried out with Chromium, Firefox, and WebKit in order to confirm that behavior is consistent across browsers.
+Negative functional test cases were intentionally designed to fail in order to demonstrate system behavior when invalid or unsupported inputs are provided.
+
+A UI test case was included to validate the visibility and usability of the input field.
+
+Tests are configured to run on the Chromium browser only for consistency during evaluation.
 
 ---
 
