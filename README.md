@@ -11,7 +11,7 @@ The automation focuses on positive functional scenarios where valid Thanglish in
 - Playwright
 - JavaScript
 - Node.js
-- Chromium, Firefox, WebKit
+- Chromium
 
 ---
 
